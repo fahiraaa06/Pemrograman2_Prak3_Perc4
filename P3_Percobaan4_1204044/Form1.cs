@@ -86,6 +86,11 @@ namespace P3_Percobaan4_1204044
             {
                 kelas = kelas + " Konduktor, ";
             }
+            if (kelas == "")
+            {
+                MessageBox.Show("Harus memilih salah satu dari plihan kelas", "Warning!",
+                      MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
 
             MessageBox.Show
              ("Nama:" + txtNama.Text +
